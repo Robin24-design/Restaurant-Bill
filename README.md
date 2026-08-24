@@ -115,8 +115,24 @@ per_person_rounded = round(per_person, 2)  # rounding
 print(per_person_rounded)  # e.g. 28.32
 ```
 
+## Running the example script
+A small example script was added at `examples/example_script.py` which demonstrates tip calculation, combining bills, splitting per-person, and other operators.
+
+To run the example script from the repository root:
+
+    python3 examples/example_script.py
+
+(Or: `python examples/example_script.py` depending on your system's Python setup.)
+
+You should see printed output showing the bill, tip, total, per-person share, combined bills, and operator demonstrations.
+
 ## Summary
 - The `Restaurant Bill` script uses simple numeric input, multiplication for tip calculation, addition for totals, and `round()` for formatting output.
 - This README adds extra examples to illustrate subtraction, multiplication, division, floor division, modulus, exponentiation, absolute value, and rounding.
 
-If you'd like, I can also add a short example that reads values from the command line or show how to turn the script into a function for reuse — just say which you prefer.
+If you'd like, I can also:
+- add a short example that reads values from command-line arguments,
+- show how to wrap the script into a reusable function,
+- or add a small test/example script in the repo demonstrating the new operator examples.
+
+Which of those (if any) would you like me to add next?
