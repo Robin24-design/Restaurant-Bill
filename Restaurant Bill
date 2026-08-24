@@ -1,0 +1,26 @@
+# resturant bill
+bill = float(input("Enter your resturant bill: R"))
+tip = 0.15 # 15%
+val_tip = bill * tip
+total_cost = bill + val_tip
+
+print(f"Total Tip for waiter is: R{val_tip}")
+print(f"Total tip rounded off is: R{round(val_tip, 2)}")# method to round off a value is round(), to the nearest int is round(var, 2)
+
+print(f"Total cost of today's Bill is: R{total_cost}")
+print(f"Total cost rounded off is: R{round(total_cost, 2)}")
+
+
+#addition
+bill1 = float(input("Enter bill 1: R"))
+bill2 = float(input("Enter bill 2: R"))
+
+total_bill = bill1 + bill2
+
+print(f"The total value of your combined Bill is; R{round(total_bill,2)}")
+#Python has several built-in functions for working with numbers. round(value, n) rounds to n decimal places: round(3.14159, 2) gives 3.14. 
+# abs(value) returns the absolute value (removes the negative sign): abs(-7) gives 7
+#floor division 3//2 Floor division (//) discards the decimal
+# Exponent 3**2 this is 3 to the power of 2
+#modulus 3%2 gives the remainder
+#print(abs(-3)) is going to be equal to 3, absolute gets rid of negative 
